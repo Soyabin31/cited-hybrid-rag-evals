@@ -1,0 +1,17 @@
+[project]
+name = "cited-hybrid-rag-evals"
+version = "0.1.0"
+description = "Production Hybrid RAG with Inline Source Citations and Automated Eval Harness"
+readme = "README.md"
+authors = [
+    { name = "Soyabin31", email = "emailswadhin111@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+cited-hybrid-rag-evals = "cited_hybrid_rag_evals:main"
+
+[build-system]
+requires = ["uv_build>=0.13.10,<0.14.0"]
+build-backend = "uv_build"

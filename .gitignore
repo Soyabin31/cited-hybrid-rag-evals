@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# IDE personal settings
+.idea/
+
+# Personal local notes & environment secrets
+SETUP_NOTES.md
+.env
+
+# Virtual environments
+.venv
